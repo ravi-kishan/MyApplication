@@ -1,8 +1,10 @@
 package com.example.ravi.myapplication;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -10,7 +12,17 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Intent intent = new Intent(this,Main2Activity.class);
-        startActivity(intent);
+
+
+        /*TextView textView = (TextView)findViewById(R.id.text_view);
+        textView.setText("Hi world");*/
+
+
+       /* Intent intent = new Intent(this,Main2Activity.class);
+        startActivity(intent);*/
+
+       /*Intent intent = new Intent(Intent.ACTION_VIEW);
+       intent.setData(Uri.parse("https://www.google.com"));
+       startActivity(intent);*/
     }
 }
