@@ -8,12 +8,16 @@
         android:id="@+id/name_textview"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="hello I hold Name" />
+        android:fontFamily="sans-serif"
+        android:text="hello I hold Name"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="16sp" />
 
     <TextView
         android:id="@+id/year_textview"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="hello I hold year" />
+        android:text="hello I hold year"
+        android:textColor="#239DBA" />
 
 </LinearLayout>
