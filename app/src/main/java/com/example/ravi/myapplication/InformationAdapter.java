@@ -12,6 +12,7 @@ import android.widget.TextView;
 import java.util.ArrayList;
 
 public class InformationAdapter extends ArrayAdapter {
+
     public InformationAdapter(Context context, ArrayList<Information> infos) {
         super(context, 0, infos);
     }
