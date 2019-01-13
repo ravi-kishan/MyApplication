@@ -19,7 +19,7 @@ public class Main2Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
-        listView = findViewById(R.id.list_item);
+        listView = findViewById(R.id.listView);
         stringArrayList = new ArrayList<String>();
 
         stringArrayList.add("first");
