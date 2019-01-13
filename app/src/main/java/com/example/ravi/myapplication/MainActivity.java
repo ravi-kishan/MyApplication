@@ -18,8 +18,8 @@ public class MainActivity extends AppCompatActivity {
         textView.setText("Hi world");*/
 
 
-       /* Intent intent = new Intent(this,Main2Activity.class);
-        startActivity(intent);*/
+        Intent intent = new Intent(this,Main3Activity.class);
+        startActivity(intent);
 
        /*Intent intent = new Intent(Intent.ACTION_VIEW);
        intent.setData(Uri.parse("https://www.google.com"));

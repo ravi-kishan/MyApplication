@@ -24,7 +24,7 @@ public class InformationAdapter extends ArrayAdapter {
         Information info = (Information) getItem(position);
 
         if (listItemView == null) {
-            listItemView = LayoutInflater.from(getContext()).inflate(R.layout.listview_item, parent, false);
+            listItemView = LayoutInflater.from(getContext()).inflate(R.layout.information_item, parent, false);
         }
 
         TextView nameTextView = listItemView.findViewById(R.id.name_textview);
